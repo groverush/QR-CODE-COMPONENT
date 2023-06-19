@@ -7,12 +7,12 @@ const App = () => {
           <img src={qrImage} alt="qr-image" className="rounded-xl" />
         </picture>
         <div className="mt-4 text-center">
-          <h3 className="font-bold text-3xl">
+          <h3 className="font-bold text-2xl">
             Improve your front-end <br />
             skills by building projects
           </h3>
 
-          <p className="text-gray-400 text-enter px-2 mt-5 text-lg tracking-wider leading-tight">
+          <p className="text-gray-400 text-enter px-2 mt-5 text-lg tracking-wide leading-tight">
             Scan the QR code to visit Frontend Mentor and take your coding
             skills to the next level
           </p>
@@ -27,7 +27,8 @@ const App = () => {
           target="_blank"
         >
           Frontend Mentor.
-        </a>{" "}
+        </a>
+        <br className="sm:hidden" />
         Coded by
         <a
           className="text-sky-400 font-semibold"
